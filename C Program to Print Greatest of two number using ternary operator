@@ -1,0 +1,30 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include <conio.h>
+
+void main() {
+
+  int number1,number2;
+
+
+//    clrscr();
+
+	printf("C Program to find Greatest of Two numbers using Ternary Operator :  ");
+
+	printf("\n\n Enter number 1  : ");
+	scanf("%d", &number1);
+    
+    printf("\n\n Enter number 2  : ");
+	scanf("%d", &number2);
+    
+   (number1 > number2) ? printf("\n\n  %d is greater then %d",number1,number2) : printf("\n\n %d is greater then %d",number2,number1);
+   
+
+//	getch();
+
+
+}
